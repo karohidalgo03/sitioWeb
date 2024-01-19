@@ -1,0 +1,81 @@
+.container-fluid{
+    background-color: rgb(238, 11, 11);
+}
+.contenedor-principal{
+   
+    display: grid;
+    
+    column-gap: 10px;
+    row-gap: 10px;
+    
+    padding: 5%;
+    background-color: whitesmoke;
+}
+.contenedor-principal-1{
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+
+}
+.grid-2{
+    padding: 3%
+}
+
+.btn-primary{
+    
+    background-color: red;
+    border: 1px solid red;
+    color: white; /* Ajusta el color del texto si es necesario */
+    text-decoration: none; /* Evita el subrayado en el enlace */
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+   
+}
+
+.contenedor-principal-3{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center; 
+    align-items: center; /* Centra verticalmente */
+
+  }
+  .grid-5{
+    
+      padding: 4%
+  }
+
+  .grid-6{
+    padding: 6%
+    
+}
+
+.contenedor-principal-5{
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    
+  }
+  .grid-7{
+    margin-right: 20px;
+      padding: 1%
+          
+  }
+
+  .contenedor-principal-6{
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    justify-content: center; 
+     
+  }
+
+  .nav-item{
+    padding: 1%;
+    
+  }
+
+  
+
+  
+
+  

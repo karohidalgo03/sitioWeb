@@ -1,0 +1,70 @@
+.container-fluid{
+    background-color: rgb(238, 11, 11);
+}
+
+.contenedor-principal{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 200px;
+}
+
+.grid-2{
+    background-color: rgb(241, 230, 238);
+    text-align: center;
+    grid-area: 1/2/4/5;
+}
+.btn-primary{
+    background-color: brown;border: 1px solid brown;
+}
+
+  .contenedor-flexible{
+    display: flex;
+    border: 2px solid steelblue;
+    background-color: aliceblue;
+    padding: 10px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 600px;
+    align-items: flex-start;
+}
+.card{
+    text-align: center;
+    background-color: rgb(241, 230, 238);
+    display: flex;
+    padding: 10px;
+    border: 10px rgb(119, 50, 50);
+    width: 30%;
+    height: 60px;
+
+}
+.contenedor{
+    padding: 20px;
+}
+.dropdown{
+    padding: 20px;  
+}
+.dropdown-menu{
+    background-color: rgb(209, 217, 240);
+}
+.dropdown-item{
+    color: rgb(0, 0, 0);
+}
+.btn-secondary{
+    background-color: white;
+    color: black;
+}
+.grid-3{
+    
+    text-align: center;
+    grid-area: 4/2/4/5;
+}
+
+
+
+
+
+
+

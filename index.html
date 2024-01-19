@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página de inicio" />
+    <meta name="keywords" content="html5, etiquetas" />
+    <meta name="author" content="Karolina Gavilema" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+
+    <title>Página oficial: Claro</title>
+  </head>
+  <body>
+    <!-- ... (-----------------------------------------) ... -->
+    <!-- ... (-----------------------------------------) ... -->
+    <!-- ... (-----------------------------------------) ... -->
+
+    <ul class="nav nav-underline">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#"
+          ><strong>Personas</strong></a
+        >
+      </li>
+      <li class="nav-item">
+        <a style="color:black" class="nav-link" href="nosotros.html"><strong>Todo sobre Nosotros</strong></a>
+        
+      </li>
+      <li class="nav-item">
+        <a style="color:black" class="nav-link" href="producto.html"><strong>Nuestros Productos</strong></a>
+      </li>
+    </ul>
+
+    <!-- ... (-----------------------------------------) ... -->
+    <!-- ... (-----------------------------------------) ... -->
+    <!-- ... (-----------------------------------------) ... -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <div>
+          <img
+            src="imagenes/logo-claro-blanco.svg"
+            alt="logo"
+            height="45px"
+            width="80px"
+          />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <strong style="color: white">Servicio</strong>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.claro.com.ec/personas/servicios/servicios-moviles/"rel="noopener noreferrer">Servicios Móviles</a></li>
+                
+                <li>
+                  <a class="dropdown-item" href="https://catalogo.claro.com.ec/iot/catalogo" rel="noopener noreferrer">Internet de las cosas</a>
+                </li>
+                <li><a class="dropdown-item" href="https://www.claro.com.ec/personas/servicios/entretenimiento/claro-juegos/"rel="noopener noreferrer">Entretenimiento</a></li>
+                <li><a class="dropdown-item" href="https://www.claro.com.ec/personas/servicios/promociones/"rel="noopener noreferrer">Promociones</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <strong style="color: white">Tienda</strong>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://catalogo.claro.com.ec/tu-vida-conectada/menu?utm_source=catalogo&utm_medium=menu-header&utm_campaign=domotica&utm_content=navigation" rel="noopener noreferrer">Tecnología</a></li>
+                <li><a class="dropdown-item" href="https://catalogo.claro.com.ec/planes-moviles/catalogo/linea-nueva?utm_source=catalogo&utm_medium=menu-header&utm_campaign=planes-linea-nueva&utm_content=navigation"  rel="noopener noreferrer">Móvil</a></li>
+                <li><a class="dropdown-item" href="https://catalogo.claro.com.ec/servicios-hogar/1-play/telefonia-fija?utm_source=catalogo&utm_medium=menu-header&utm_campaign=hogar-telefonia-fija&utm_content=navigation" rel="noopener noreferrer">Hogar</a></li>
+                <li><a class="dropdown-item" href="https://catalogo.claro.com.ec/postpago/catalogo?financiamiento=contado&utm_source=catalogo&utm_medium=promocion-del-mes-tc&utm_campaign=redirect&utm_term=ofertas" rel="noopener noreferrer">Promociones</a></li>
+                <li><a class="dropdown-item" href="https://www.miclaro.com.ec/trackingclaro/?utm_source=catalogo&utm_medium=menu-header&utm_campaign=asistencia-rastreo&utm_content=navigation/" rel="noopener noreferrer">Asistencia</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <br />
+              <a class="nav-link active" aria-current="page" href="https://soporteec.helpsite.cloud/home"
+                ><strong style="color: white">Soporte</strong></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ... (BOOTSTRAP DE CARUSEL) ... -->
+    <!-- ... (-----------------------------------------) ... -->
+    <!-- ... (-----------------------------------------) ... -->
+    <!-- ... (-----------------------------------------) ... -->
+
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        border: solid rgb(191, 208, 7);
+        background-color: rgb(239, 239, 212);
+      "
+    ></div>
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="imagenes/vitrina_oneplayfutbol.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imagenes/vitrina_futbol.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imagenes/landing_reloj_.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="imagenes/play_station.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="imagenes/portabilidad4.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item active">
+          <img src="imagenes/samsung.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item active">
+          <img src="imagenes/echo_show.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item active">
+          <img src="imagenes/plan.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item active">
+          <img src="imagenes/generaldos_.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="imagenes/laptops_impresora.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <hr />
+      <hr />
+    </div>
+
+    <!-- ... (-----------------------------------------) ... -->
+    <!-- ... (-----------------------------------------) ... -->
+    <!-- ... (-----------------------------------------) ... -->
+
+    <div class="contenedor-principal">
+      <br />
+      <h2 style="text-align: left">
+        ¡Encuentra el plan de internet que se ajusta a tu hogar!
+      </h2>
+      <h6 style="text-align: left">
+        Personaliza tu plan según tus necesidades y recibe la mejor conexión.
+      </h6>
+      <div class="grid-2">
+        <div class="d-grid gap-2 d-md-block" style="text-align: left">
+          <button class="btn btn-primary" type="button">
+            <h4>Busca aquí tu plan ideal de internet</h4>
+          </button>
+        </div>
+        <h4>
+          ¿Cuál es el uso principal que le das al internet en casa?
+          <span style="font-size: smaller; color: blue"
+            >Selecciona de 2 a 3 opciones</span
+          >
+        </h4>
+        <!-- ... (-----------------------------------------) ... -->
+        <!-- ... (-----------------------------------------) ... -->
+        <!-- ... (-----------------------------------------) ... -->
+
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="imagenes/redes-sociales-icono.svg"
+              class="card-img-top"
+              alt="..."
+              height="120px"
+              width="120px"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Redes sociales</h6>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="imagenes/ico-creador-contenidos.svg"
+              class="card-img-top"
+              alt="..."
+              height="120px"
+              width="120px"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Creador de contenidos</h6>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="imagenes/ico-juegos-linea.svg"
+              class="card-img-top"
+              alt="..."
+              height="120px"
+              width="120px"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Juegos en línea</h6>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="imagenes/ico-trabajo-clases-linea.svg"
+              class="card-img-top"
+              alt="..."
+              height="120px"
+              width="120px"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Trabajo y clases en línea</h6>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="imagenes/ico-series-peliculas.svg"
+              class="card-img-top"
+              alt="..."
+              height="120px"
+              width="120px"
+            />
+            <div class="card-body">
+              <h6 class="card-title">Series y películas</h6>
+            </div>
+          </div>
+          <!-- ... (-----------------------------------------) ... -->
+          <!-- ... (-----------------------------------------) ... -->
+          <!-- ... (-----------------------------------------) ... -->
+        </div>
+        <br /><br /><br /><br /><br /><br /><br /><br />
+
+        <h2>¿Cuántas personas están conectadas regularmente?</h2>
+        <section>
+          <div class="dropdown" style="text-align: left">
+            <a
+              class="btn btn-secondary dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Selecciona 1 opción
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">1 Persona</a></li>
+              <li><a class="dropdown-item" href="#">2 Personas</a></li>
+              <li><a class="dropdown-item" href="#">3 Personas</a></li>
+              <li><a class="dropdown-item" href="#">4 Personas</a></li>
+              <li><a class="dropdown-item" href="#">5 Personas</a></li>
+              <li><a class="dropdown-item" href="#">6 o más Personas</a></li>
+            </ul>
+          </div>
+          <div class="d-grid gap-2 col-3 mx-auto">
+            <button
+              style="color: rgb(255, 255, 255)"
+              class="btn btn-primary"
+              type="button"
+            >
+              Recomendar
+            </button>
+          </div>
+        </section>
+        <!-- ... (-----------------------------------------) ... -->
+        <!-- ... (-----------------------------------------) ... -->
+      </div>
+
+      <h3 style="text-align: left">¿Quiénes Somos?</h3>
+      <h6 style="text-align: justify">
+        Desde hace 30 años Claro acompaña a los ecuatorianos. La empresa de
+        telecomunicaciones brinda servicios de conectividad y aporta al
+        desarrollo del Ecuador a través de una estrategia de sustentabilidad
+        transversal. Es una de las más grandes generadoras de empleo con más de
+        2.900 colaboradores directos y 300.000 indirectos; además cuenta con más
+        de 5.500 puntos de venta, 71 Centros de Atención a Clientes y canales de
+        atención 24/7. Claro invierte en el país para conectar a los
+        ecuatorianos. Actualmente da cobertura al 97% del territorio ecuatoriano
+        poblado, el 81% tiene tecnología 4G LTE, y cuentan con la confianza de
+        más de 9.7 millones de clientes que se comunican a través de su red. El
+        trabajo de miles de personas desde las diferentes áreas de Claro hace
+        posible que el país esté conectado.
+      </h6>
+      <hr />
+      <hr />
+
+      <hr />
+      
+     
+     <br><br><br><br>
+    
+      
+      <div class="grid-3">
+        <div class="d-grid gap-2 d-md-block" style="text-align: left"></div>
+
+        <!-- ... (-----------------------------------------) ... -->
+        <!-- ... (-----------------------------------------) ... -->
+        <!-- ... (-----------------------------------------) ... -->
+        <div class="card-group">
+          <div class="card">
+            <h6 class="card-title">TECNO KG5KS SPARK 8C</h6>
+            <img src="imagenes/tecno.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">Precio al contado:</p>
+              <p class="card-text">
+                <small class="text-body-secondary">Precio normal $188,07</small>
+              </p>
+              <h4>$162,13</h4>
+            </div>
+          </div>
+          <div class="card">
+            <h6 class="card-title">TECNO KH7S SPARK 9 PRO</h6>
+            <img
+              src="imagenes/spark-9-pro.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">Precio al contado:</p>
+              <p class="card-text">
+                <small class="text-body-secondary">Precio normal $222,05</small>
+              </p>
+              <h4>$191,13</h4>
+            </div>
+          </div>
+          <div class="card">
+            <h6 class="card-title">SAMSUNG 75" CRYSTAL LED 4K...</h6>
+            <img src="imagenes/09-samsung.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">Precio al contado:</p>
+              <h4>$1700,15</h4>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+        <!-- ... (-----------------------------------------) ... -->
+        <!-- ... (-----------------------------------------) ... -->
+        <!-- ... (-----------------------------------------) ... -->
+        
+        
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

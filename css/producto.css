@@ -1,0 +1,77 @@
+.container-fluid{
+    background-color: rgb(238, 11, 11);
+}
+.contenedor-principal-1{
+    padding: 2%;
+    background-color: beige;
+}
+
+.banner-text{
+    background-color: red;
+    color:white;
+}
+
+.contenedor-principal-3{
+    padding: 2%;
+    text-align: center;
+}
+.grid-3{
+    background-color: rgb(241, 230, 238);
+    text-align: center;
+}
+
+.contenedor-principal-5{
+    padding: 2%;
+    text-align: center;
+    
+}
+
+.contenedor-principal-6{
+    padding: 2%;
+    text-align: center;
+}
+
+.contenedor-principal-7{
+    padding: 2%;
+    text-align: center;
+}
+
+.contenedor-principal-8{
+    text-align: center;
+}
+.contenedor-principal-9{
+    padding: 2%;
+}
+.contenedor-principal-10{
+    padding: 4%;
+}
+
+.contenedor-principal-11{
+    padding: 3%;
+    
+}
+
+.grid-11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.espacio-entre-imagenes {
+    width: 70px; /* Ancho del espacio entre las imágenes */
+}
+
+.contenedor-principal-13{
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+     
+  }
+
+
+
+
+
+
+
